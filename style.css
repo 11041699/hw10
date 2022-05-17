@@ -58,7 +58,7 @@ section{
     }
 }
 
-@media (min-width:400px) and (max-width: 800px) {
+@media (min-width:400px) and (max-width: 600px) {
 
     section {
 		width: 100%;
