@@ -49,11 +49,6 @@ section{
 
 @media (max-width:940px) {
 	
-	section {
-
-		width: 100%;
-    }
-    
     article {
         overflow:auto; 
         background-image: url("beatles2.png");
@@ -63,20 +58,12 @@ section{
     }
 }
 
-@media (max-width: 399px) {
-
-	header {
-
-        background-color: black;
-        color: white;
-    }
-    article {
-        background: white;
-        color: black;
-    }
-}
-
 @media (min-width:400px) and (max-width: 800px) {
+
+    section {
+		width: 100%;
+    }
+
     header {
 
         background-color: black;
@@ -84,6 +71,11 @@ section{
     }
 }
 @media (max-width: 399px) {
+
+    section {
+        font-size: 10px;
+		width: 100%;
+    }
 
 	header {
 
@@ -97,6 +89,10 @@ section{
 }
 
 @media print{
+    section {
+
+		width: 100%;
+    }
     .main {
         display: none;
     }
